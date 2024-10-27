@@ -6,26 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @font-face {
+            font-family: "Norse-Bold";
+            src: url("/home/vlad/Downloads/Norse-Bold.otf") format("opentype");
+        }
+    </style>
 </head>
 
 <body>
     <div class="left">
 
 
-        <img src="https://images.unsplash.com/photo-1643779374793-bdd97159e50b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="">
+        <div class="imgContainer">
+            <img src="https://images.unsplash.com/photo-1643779374793-bdd97159e50b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+            <div class="banner">
+                <img src="/home/vlad/Downloads/odin-lined.png" alt="">
+                <h3>ODIN</h3>
+                
+            </div>
+        </div>
+
 
 
     </div>
     <div class="right">
         <div class="header">
-            <p>This is not a real online service! You know you need something liek this in your life to help you realize
-                your deepest dreams. Sign up <i>now</i> to get started.</p>
-            <p>You <i>know</i> you want to</p>
+            <h3>This is not a real online service! You know you need something <br>  like this in your life to help you realize
+                your deepest dreams.<br>  Sign up <i>now</i> to get started.</h3>
+            <h3>You <i>know</i> you want to.</h3>
         </div>
-        <div>
+        <div class="formDiv">
+            <h2>Let's do this!</h2>
             <form action="submit">
-                <label class="main_label" for="form">Let's do this</label>
+
                 <div class="info">
                     <div>
                         <label for="first_name">FIRST NAME:</label>
@@ -46,7 +61,7 @@
 
                     <div>
                         <label for="phone_num">PHONE NUMBER</label>
-                        <input type="number" name="phone_num" id="phone_num">
+                        <input type="tel" name="phone_num" id="phone_num">
                     </div>
                 </div>
                 <div class="info">
