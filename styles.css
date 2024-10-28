@@ -11,6 +11,11 @@ body{
     width: 25%;
 }
 
+.imgContainer>img{
+    height: 100vh;
+    width: auto;
+}
+
 .banner{
     font-family: "Norse-Bold";
     display: flex;
